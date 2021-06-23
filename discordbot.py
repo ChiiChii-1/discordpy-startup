@@ -17,5 +17,12 @@ async def on_command_error(ctx, error):
 async def ping(ctx):
     await ctx.send('pong')
 
+@bot.command()
+async def chagi(ctx):
+    await ctx.send('にゃ～ん')
 
+    
+    
+    
+    
 bot.run(token)
