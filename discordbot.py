@@ -13,13 +13,10 @@ async def on_command_error(ctx, error):
     await ctx.send(error_msg)
 
 
-@bot.command()
-async def ping(ctx):
-    await ctx.send('pong')
 
 @bot.command()
-async def chagi(ctx):
-    await ctx.send('にゃ～ん')
+async def moroko(ctx):
+    await ctx.send('にゃーん')
 
     
     
